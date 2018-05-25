@@ -1,0 +1,35 @@
+{
+  "name": "pipeenv-cli",
+  "version": "0.0.1",
+  "description": "Pipe env from stdin to a shell command, inspired by dotenv-cli",
+  "main": "index.js",
+  "bin": {
+    "pipeenv-cli": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bholloway/pipeenv-cli.git"
+  },
+  "keywords": [
+    "pipeenv-cli",
+    "pipeenv",
+    "crossenv",
+    "env",
+    ".env",
+    "environment",
+    "variables",
+    "config",
+    "cli"
+  ],
+  "author": "bholloway",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bholloway/pipeenv-cli/issues"
+  },
+  "homepage": "https://github.com/bholloway/pipeenv-cli#readme",
+  "dependencies": {
+    "cross-spawn": "^6.0.5",
+    "dotenv": "^5.0.1",
+    "get-stdin": "^6.0.0"
+  }
+}
